@@ -109,3 +109,4 @@ df6 = pd.read_csv('result_tables\\table_unemploy.csv', sep=';')
 
 df = df1.merge(df2, how='left', on='Регион').merge(df3, how='left', on='Регион').merge(df4, how='left', on='Регион').merge(df5, how='left', on='Регион').merge(df6, how='left', on='Регион')
 df.to_csv('result_tables\\total_table.csv', index=False, sep=';')
+#commit again
