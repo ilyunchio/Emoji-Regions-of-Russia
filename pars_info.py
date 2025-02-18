@@ -93,3 +93,4 @@ with open("result_tables/regions_positions.csv", mode="w", newline="", encoding=
     writer.writerow(["Регион", "Координата X", "Координата Y"])
     for region, (x, y) in region_positions.items():
         writer.writerow([region, x, y])
+#commit
